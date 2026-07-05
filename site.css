@@ -4,6 +4,13 @@
 }
 
 body {
-  background: blue;
-  opacity: 50%;
+  background-color: #f5f6fa;
+  background-image:
+    radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 1) 0%, rgba(0, 35, 149, 0) 75%),
+    linear-gradient(135deg,
+      #4066cc 5%,
+      #ffffff 50%,
+      #f0798a 95%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
