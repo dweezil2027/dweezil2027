@@ -13,4 +13,30 @@ body {
       #f0798a 95%);
   background-repeat: no-repeat;
   background-attachment: fixed;
+
+}
+
+.navbar {
+  background-color: #f5f6fa;
+}
+
+.navbar a:hover {
+  background-color: gradient;
+  background-image: linear-gradient(to right, #4066cc,#ffffff, #ff0026);
+  border-color: #f5f6fa;
+}
+
+.navbar a {
+  align-content: center;
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+.mainpages {
+  text-align: left;
 }
